@@ -92,7 +92,7 @@ if (isset($_POST["hapus_hp"])) {
 <html>
 
 <head>
-	<title>Sistem Pendukung Keputusan Pemilihan Smartphone</title>
+	<title>Sistem Pendukung Keputusan Pemilihan Laptop</title>
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
@@ -125,7 +125,7 @@ if (isset($_POST["hapus_hp"])) {
 					<ul class="left" style="margin-left: -52px;">
 						<li><a href="index.php">HOME</a></li>
 						<li><a href="rekomendasi.php">REKOMENDASI</a></li>
-						<li><a class="active" href="daftar_laptop.php">DAFTAR SMARTPHONE</a></li>
+						<li><a class="active" href="daftar_laptop.php">DAFTAR LAPTOP</a></li>
 					</ul>
 				</div>
 
@@ -144,7 +144,7 @@ if (isset($_POST["hapus_hp"])) {
 							<div class="card">
 								<div class="card-content">
 									<center>
-										<h4 style="margin-bottom: 0px; margin-top: -8px;">Daftar Smartphone</h4>
+										<h4 style="margin-bottom: 0px; margin-top: -8px;">Daftar Laptop</h4>
 									</center>
 									<table id="table_id" class="hover dataTablesCustom" style="width:100%">
 										<thead style="border-top: 1px solid #d0d0d0;">
@@ -240,7 +240,7 @@ if (isset($_POST["hapus_hp"])) {
 							<div class="card">
 								<div class="card-content" style="padding-top: 10px;">
 									<center>
-										<h5 style="margin-bottom: 10px;">Analisa Smartphone</h5>
+										<h5 style="margin-bottom: 10px;">Analisa Laptop</h5>
 									</center>
 									<table class="responsive-table">
 
@@ -315,7 +315,7 @@ if (isset($_POST["hapus_hp"])) {
 				<div class="card-content">
 					<div class="row">
 						<center>
-							<h5 style="margin-top:-8px;">Masukan Smartphone</h5>
+							<h5 style="margin-top:-8px;">Masukan laptop</h5>
 						</center>
 						<form method="POST" action="">
 							<div class="row">
